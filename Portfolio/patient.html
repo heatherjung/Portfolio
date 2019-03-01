@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Heather's Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="wrapper">
+      <a href="index.html" class="logo">HEATHER JUNG</a>
+      <nav>
+        <ul>
+          <li><a href="index.html">WORK</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+  <div id="hero-experts">
+    <div><img src="img/hospital.png" alt="SDMC" class="SDMC">
+    </div>
+    <div class="wrapper">
+      <h1>Empathy Towards Nursing Staff</h1>
+      <p>With a 3-year background in nursing at the hospital, I wanted to bring in UX skills into my current job. Therefore, I conducted user research to find out how accurately the HCAHPS scores for our floor reflected how our nurses were providing care.</p>
+    </div>
+  </div>
+
+  <div id="page-experts">
+    <div class="wrapper">
+
+      <div class="row">
+        <div class="col-12 col-md-12 col-sm-12">
+          <h2>CONTEXT</h2>
+          <p>Patient experience is a huge deal at hospitals. It encompasses so many factors like: interactions with the hospital staff, being able to rest, how tasty the food is, cleanliness of the hospital, and etc. Once patients get discharged, they may receive a HCAHPS (Hospital Consumer Assessment of Healthcare Providers & Systems) survey phone call that asks about the care they received at the hospital.
+            This standardized survey measures patients' perceptions of their hospital experience. How we interact and treat our patients are reflected in the HCAHPS scores, especially in the areas of "Communication with Nurses" and "Responsiveness of Hospital Staff" which are often the main areas of improvement.
+          </p>
+          <p>Here is a timeline of what our typical patients might experience from admission to discharge. There are a list of factors that could contribute to a bad hospital stay based off my personal experience. You'll quickly notice that there are many things out of our control that we can't fix.
+          </p><br>
+
+          <div><img src="img/badhospitalvisit.png" alt="expert" class="experts">
+          </div><br>
+
+          <h2>CHALLENGE</h2>
+          <p>The chart captures a HCAHPS summary of how the Med-Surg Unit has been doing over the past year, starting from the 4th quarter of 2017 all the way up to the end of 3rd quarter of 2018. Boxes highlighted red indicates that the unit is performing below the domain national 75th percentile in comparison to the rest of the HCA hospitals.
+          </p>
+          <div><img src="img/score2018.png" alt="hcahps" class="hcahps">
+          </div>
+
+          <p>The problem is that the quarterly HCAHPS scores have not shown any progress in the areas of <strong>"Communication with Nurses"</strong> and <strong>"Responsiveness of Hospital Staff"</strong> during the span of one year. Finding out the contributing factors for these negative scores would be the ultimate challenge. Another challenge is the way the HCAHPS system is set up. Patients can choose from a range of answers: never, sometimes, usually, and always. If patients do not answer as "always" to these survey questions, our hospital unit does not get credit for the specified area.
+          </p>
+          <br><br><br>
+
+
+          <h2>CONDUCTING RESEARCH</h2>
+          <h3>User Surveys</h3>
+          <p>Rather than taking the approach of interviewing patients to get a sense of what "excellent care" entailed, I wanted to know if our nursing staff was meeting the expectations of providing courtesy & respect, being responsive, teaching medication uses & side effects, and going over the discharge plans? As I shifted the focus from surveying the discharged patients to now surveying the nursing staff, I wondered what insight would be gained.
+          </p>
+          <p>Therefore, I created a voluntary anonymous Patient Experience Survey to collect qualitative data from the nurses and patient care techs on the Med-Surg Unit using Survey Monkey. A total of 41 out of 112 staff members completed the Patient Experience Survey.
+          </p>
+          <ol>
+            <li>How often do you treat patients with courtesy and respect? 
+            </li>
+            <li>How often do you listen carefully to your patients?
+            </li>
+            <li>How often do you explain things in a way patients could understand?
+            </li>
+            <li>How often do you respond to your patient's call button?
+            </li>
+            <li>Before giving any new medicine, how often do you explain to your patients what the medicine is used for?
+            </li>
+            <li>Before giving any new medicine, how often do you explain to your patients possible side effects?
+            </li>
+            <li>When discharging patients, how often do you explain symptoms or health problems to look out for?
+            </li>
+            <li>Please specify your age range.
+            </li>
+            <li>Please indicate your gender.
+            </li>
+            <li>Please specify your ethnicity.
+            </li>
+            <li>What is your marital status?
+            </li>
+          </ol>
+          <p>This survey presented the same questions used in the HCAHPS surveys, with the differences being that open-ended questions were included to pinpoint the barriers from giving good care, and a section was included to provide feedback on ways that the unit could improve. 
+          </p>
+          
+      <h3>Affinity Mapping</h3>
+      <p>Affinity mapping was used to draw out themes and patterns as these responses were grouped according to similarity in demographics or the given responses. I used three main demographics to define the survey responses, which were: generation, marital status, and gender.</p>
+          <br>
+         <div><img src="img/responsiveness.jpg" alt="patientexperience" class="affinitymapping"></div>
+          <p>
+            <strong>Poor Categorization</strong>
+            <br>
+            I found that the "JustAnswer" app was difficult to navigate because of:
+          </p>
+          <ul>
+            <li>Unalphabetized categories (ex: experts' name or expertise)</li>
+            <li>No search engine</li>
+            <li>Cluttered information</li>
+          </ul>
+
+          <p>
+            <strong>Unnecessary Video Calls</strong>
+            <br>
+            A question that arose was whether or not video calls were necessary.
+          </p>
+          <ul>
+            <li>Simple questions don't require video calls.</li>
+            <li>Is it worth paying to use video call?</li>
+            <li>Video calls may be uncomfortable.</li>
+          </ul>
+
+          <p>
+            <strong>Hesitant using a Q&A app</strong>
+            <br>
+            There were some reasons people were hesitant to use a Q&A app, such as:
+          </p>
+          <ul>
+            <li>Using other methods of obtaining information</li>
+            <li>Trustworthiness of experts</li>
+            <li>Miscommunication</li>
+            <li>Not getting your question answered</li>
+            <li>Feeling of not getting your money's worth</li>
+          </ul>
+          <br>
+
+          <h3>Understanding the User</h3>
+          <p>After brainstorming a list of possible problems and solutions that Q&A apps may face, I focused on these three research goals to help me conduct <a href="https://www.surveymonkey.com/r/XDCNYW7">user surveys</a> and <a href="https://docs.google.com/document/d/1aKQdMXWdoeNNtcQKOi7lmN8beUXe1Qcm46mkjC6lgyY/edit">user interviews</a>. ​​​​​​​
+          </p>
+          <ol>
+            <li>Consider the factors that create a frustrating experience.
+            </li>
+            <li>Identify the process of how people ask questions and what resources are used.
+            </li>
+            <li>Determine preferred methods of communication when connecting to experts.
+            </li>
+          </ol>
+          <div><img src="img/affinitymap.png" alt="affinitymap" class="affinitymap"></div>
+          <p><a href="https://dochub.com/heather-jung/DO1LzQ/experts_affinitymapping_generatinginsight?pg=3">Affinity Mapping</a>
+          </p>
+          <p><a href="https://www.surveymonkey.com/results/SM-78DPHXNZL/">SurveyMonkey Results</a>
+          </p>
+
+          <h3>Research Takeaways</h3>
+          <ol>
+            <li>People prefer using Google because it's quick and convenient.
+            </li>
+            <li>People are open to having various answers to their questions. 
+            </li>
+            <li>People prefer having multiple methods of communication. 
+            </li>
+            <li>People find miscommunication to be problematic and unprofessional.
+            </li>
+            <li>People prefer entering keywords to narrow down their search.
+            </li>
+          </ol>
+          <br>
+
+          <h2>Meet Ryan, Kim, & Greg</h2>
+          <p>Behind these three peronas are 26 unique individuals, 6 user interviews, and 20 user surveys conducted. I have created Ryan, Kimberly, and Greg to capture an audience of users’ daily challenges, frustrations, needs, motivations, and attitudes toward getting connected to experts.
+          </p>
+          <div><img src="img/3personas.png" alt="3personas" class="3personas">
+          </div>
+          <br>
+
+
+          <h2>Narrowing the Scope</h2>
+          <p>Based on the previous methodology and findings, I envisoned the experts app to have:</p>
+          <h4>Basic Functions
+          </h4>
+          <p>Providing basic functions, such as finding experts, asking questions, making video calls and payments, are necessary to fulfill the users' basic needs. 
+          </p>
+          <h4>Strong User Flows
+          </h4>
+          <p>Strong user flows not only saves time but eliminates frustration and the feeling of being lost when users are completing a task.  
+          </p>
+          <h4>Everything-You-Need Home Page
+          </h4>
+          <p>A home page that keeps track of asked questions, saved experts, and upcoming appointments can make users feel organized and creates structure out of potential chaos. 
+          </p>
+          <h4>Easy Access to Experts
+          </h4>
+          <p>When users are unable to find the experts they need, the natural response is frustration, which is why providing multiple ways to search for experts is essential.
+          </p> 
+          <h4>Experts' Credibility
+          </h4>
+          <p>Displaying the experts' ratings and their credentials clearly are important for increasing user retention and trustworthiness. ​​​​​
+          </p>
+          <h4>Various Methods of Communication
+          </h4>
+          <p>Allowing users to choose their method of communication promotes autonomy as they may have their reasons as to why a comment, message, phone call, or video call would be best for them. It can reduce the discomfort of talking to strangers.
+          </p> 
+          <h4>Ability to Book Appointments
+          </h4>
+          <p>The ability to book appointments may reduce anticipation time and the feeling of having waited a long time to receive an answer. 
+          </p>
+          <br>
+
+
+          <h2>Building the Foundation</h2>
+          <h3>Card sorting
+          </h3>
+          <p>Closed <a href="https://docs.google.com/document/d/1_bALJgq5lH2xiTOOQZc0GU8KeuqpamYOUIHcwXU-fis/edit">card sorting</a> was conducted on five participants using a physical test. They grouped the product content of 43 cards into the 8 defined categories. The average amount of time spent completing this study was 11.29 minutes.
+          </p>
+          <h3>Sitemap
+          </h3>
+          <p>Experts' sitemap is structured to make the experts easily accessible to users through the search bar, home page, and "Experts" page. 
+          </p>
+          <div><img src="img/sitemap.png" alt="sitemap" class="sitemap"></div>
+
+          <h2>Low-Fidelity Wireframes
+          </h2>
+          <h3>Feature: Making a Video Call & Payment
+          </h3>
+          <div><img src="img/lowfid.png" alt="lowfid" class="lowfid"></div>
+          <p>Explaining the Process
+          </p>
+          <ol>
+            <li>User is notified that there is a scheduled video call.
+            </li>
+            <li>User has the option to accept or reject the video call. 
+            </li>
+            <li>User will wait to be connected to Francis after tapping the video call icon. 
+            </li>
+            <li>User can end the session by tapping the bottom video call icon.
+            </li>
+            <li>User can make a payment by choosing the preferred method of payment.
+            </li>
+            <li>User will input billing and credit card information.
+            </li>
+            <li>User is assured that $20 is being transferred to Expert Francis.
+            </li>
+          </ol>
+          <br>
+
+          <h2>Mid-Fidelity Wireframes
+          </h2>
+          <h3>Feature: Finding an Expert
+          </h3>
+          <div><img src="img/midfid.png" alt="midfid" class="midfid"></div>
+          <p>Different Approches to Finding Experts</p>
+          <ol>
+            <li>Type in your expert's name.
+            </li>
+            <li>Scroll through various categories to find expert.
+            </li>
+            <li>Click "Recently Used Experts."
+            </li>
+            <li>Click "Top Rated Experts."
+            </li>
+          </ol>
+          <br>
+
+          <h2>High-Fidelity Wireframes
+          </h2>
+          <h3>Feature: Finding an Expert
+          </h3>
+          <div><img src="img/highfid.png" alt="highfid" class="highfid"></div>
+          <br>
+
+
+          <h2>Usability Test Report</h2>
+          <p>After conducting the usability tests, I consolidated the responses onto the Rainbow Sheet and ranked the severity of errors using Jakob Nielson's rating scale. 
+          </p>
+          <div><img src="img/rainbow.png" alt="rainbow" class="rainbow"></div>
+          <h3>Top Five Issues:
+          </h3>
+          <ol>
+            <li>Users were not able to access the search bar on the “Home” page (High).
+            </li>
+            <ul>
+              <li>Suggested Change:
+              </li>
+            </ul>
+            <li>Users were not able to follow the expert from the “Search Results” page (High).
+            </li>
+            <ul>
+              <li>Suggested Change:
+              </li>
+            </ul>
+            <li>Users attempted to sign-up by clicking on the sign-in box (Medium).
+            </li>
+            <ul>
+              <li>Suggested Change:
+              </li>
+            </ul>
+            <li>Users varied in the process of how a question is asked. Most users looked for the expert first before asking their question, while other users asked their question first and then looked for an expert (Medium).
+            </li>
+            <ul>
+              <li>Suggested Change:
+              </li>
+            </ul>
+            <li>Some users had difficulty locating the button to follow an expert (Low).
+            </li>
+            <ul>
+              <li>Suggested Change:
+              </li>
+            </ul>
+          </ol>
+          <br>
+
+
+          <h2>Refining the Design</h2>
+          <h3>Preference Test</h3>
+          <p>To improve the appearance of the home page, UsabilityHub was used to conduct a preference test.
+          </p> ​​​​
+          <div><img src="img/preference.png" alt="preference" class="preference"></div>
+
+          <h3>Design Language</h3>
+          <p>A style guide was created for experts for future use and to hand-off to developers. 
+          </p> ​​​​
+          <div><img src="img/style.png" alt="style" class="style"></div>
+          <br>
+
+
+          <h2>Key Learnings</h2>
+          <h4>People love Google.
+          </h4>
+          <p>Google is the best because it gives people autonomy, comfort, and convenience. People like to find answers on their own initiative and timing. Questions don't need to be fully thought out before completing a search. The search can be quick or more extensive, depending on the complexity of the question and what they are looking for.
+          </p>
+          <h4>A free drink is not a strong incentive to complete a survey.
+          </h4>
+          <p>Providing an incentive of purchasing a drink for the participant after completion of the tasks isn't necessary since most of my participants did not mind completing the tasks. 
+          </p>
+          <h4>Emphasis on building community can remove a professional feel. 
+          </h4>
+          <p>A social platform is created when everyone pitches in their opinion using casual and unfiltered language. Providing various perspectives can come in forms of bias or facts, and it's the facts that create professionalism while biased thoughts can create a social platform.
+          </p>
+          <h4>Swiping is a natural tendency when people are stuck on a screen.
+          </h4>
+          <p>When participants are not able to find what they are looking for or do not know how to proceed to the next step, their default mode is to swipe.
+          </p>
+          <h4>The words "sign-in" and "sign-up" are too similar. 
+          </h4>
+          <p>I learned that most participants do not read carefully because the "sign-in" box was frequently clicked when creating an account instead of the "sign-up" box. 
+          </p>
+          <h4>A search icon on every screen is unnecessary and takes up space. 
+          </h4>
+          <p>I cannot understate the importance of having a search bar as participants naturally gravitate towards it to look up experts or questions. However, the search bar does not need to be on every screen as it may remove the focus off what is currently being displayed. 
+          </p>
+          <br>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

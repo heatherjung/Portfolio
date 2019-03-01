@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Heather's Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="wrapper">
+      <a href="index.html" class="logo">HEATHER JUNG</a>
+      <nav>
+        <ul>
+          <li><a href="index.html">WORK</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+  <div id="hero-experts">
+    <div><img src="img/img_experts.png" alt="expert" class="experts">
+    </div>
+    <div class="wrapper">
+      <h1>PROJECT OVERVIEW</h1>
+      <p>Experts is a q&a mobile app that I designed as a part of the CareerFoundry's UX Immersion Course. The app serves as a platform to share knowledge and get answers from experts.</p>
+    </div>
+  </div>
+
+  <div id="page-experts">
+    <div class="wrapper">
+      <div class="row">
+        <div class="col-12 col-md-12 col-sm-12">
+          <h2>OBJECTIVE</h2>
+          <p>Design a mobile app that allows users to instantly video chat with experts in any field.</p>
+
+          <h2>CONTEXT</h2>
+          <p>We all need the advice of an expert sometimes since Google search or how-to videos don't always give us the satisfying answer we are looking for. The goal of this app is to give people a simple, intuitive way to connect with experts of any field so they could feel more informed and prepared to face their everyday problems.</p>
+
+          <h2>SOLUTION</h2>
+          <p>The Experts app provides easy access to experts, flexible ways to communicate, and the ability to personalize a question. 
+          </p>
+
+          <h2>DELIVERABLES</h2>
+          <ul>
+            <li>Onboarding</li>
+            <li>Log-in/Sign-up</li>
+            <li>Dashboard</li>
+            <li>A menu that allows users to navigate the application</li>
+            <li>A way to browse experts and pose a question to them</li>
+            <li>A way of paying for an expert’s time</li>
+          </ul>
+          <br><hr>
+
+          <h1>UNDERSTANDING THE USER</h1>
+          <h3>Research Tools:</h3><p>Competitive Analysis, User Interviews & Surveys, Affinity Mapping</p>
+
+          <h2>COMPETITIVE ANALYSIS</h2>
+          <p>Since I was unfamiliar with Q&A platforms, I began to identify commonly used Q&A apps and platforms. Though there are several widely-known and used Q&A platforms to choose from (ex: Quora, Reddit, Yahoo Answers), I decided to conduct a competitor analysis on <strong>Just Answers</strong> and <strong>Askedoo</strong> because these two mobile apps connected users to experts through the means of video chat.
+          </p>
+          <div><img src="img/app_analysis.png" alt="analysis" class="competitiveprofile"></div>
+          <br>
+
+          <p>The three main themes that emerged from my observations were:</p>
+
+          <p>
+            <strong>Poor Categorization</strong>
+            <br>
+            I found that the "JustAnswer" app was difficult to navigate because of:
+          </p>
+          <ul>
+            <li>Unalphabetized categories (ex: experts' name or expertise)</li>
+            <li>No search engine</li>
+            <li>Cluttered information</li>
+          </ul>
+
+          <p>
+            <strong>Unnecessary Video Calls</strong>
+            <br>
+            A question that arose was whether or not video calls were necessary.
+          </p>
+          <ul>
+            <li>Simple questions don't require video calls.</li>
+            <li>Is it worth paying to use video call?</li>
+            <li>Video calls may be uncomfortable.</li>
+          </ul>
+
+          <p>
+            <strong>Hesitant using a Q&A app</strong>
+            <br>
+            There were some reasons people were hesitant to use a Q&A app, such as:
+          </p>
+          <ul>
+            <li>Using other methods of obtaining information</li>
+            <li>Trustworthiness of experts</li>
+            <li>Miscommunication</li>
+            <li>Not getting your question answered</li>
+            <li>Feeling of not getting your money's worth</li>
+          </ul>
+          <br>
+          
+          <h2>USER INTERVIEWS & SURVEYS</h2>
+          <p>I used a combination of user interviews and user surveys since these research methods were the most viable options, being low cost and having easy access to a pool of participants. Using the information gathered from the competitor analysis, I then narrowed down on three research goals to help me conduct <a href="https://www.surveymonkey.com/r/XDCNYW7">user surveys</a> and <a href="https://docs.google.com/document/d/1aKQdMXWdoeNNtcQKOi7lmN8beUXe1Qcm46mkjC6lgyY/edit">user interviews</a>.
+          </p>
+          <ol>
+            <li>Consider the factors that create a frustrating experience.
+            </li>
+            <li>Identify the process of how people ask questions and what resources are used.
+            </li>
+            <li>Determine preferred methods of communication when connecting to experts.
+            </li>
+          </ol>
+          <p>My target audience were tech-savy young adults who fell in the age range of 18-30 years. Through the user interviews and surveys, I have found that most people use Google to search for their answers on a regular basis because it's quick and convenient. When using Google search, most people do not have a question fully formulated and instead use keywords to ask their questions.</p>
+          <br>
+
+          <h2>AFFINITY MAPPING</h2>
+          <p>After data collection on 26 individuals (6 user interviews & 20 user surveys), affinity mapping was conducted to further explore the users' behaviors, attitudes, frustrations, and needs.</p>
+
+          <!-- Slideshow container -->
+          <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="img/affmap.png" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="img/affmap2.png" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="img/affmap3.png" style="width:100%">
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br>
+
+          <!-- The dots/circles -->
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+          </div>
+
+
+          <h2>GENERATING INSIGHTS</h2>
+          <p>Here are the insights that I have gained through affinity mapping:</p>
+          <div><img src="img/creatingpersona.jpeg" alt="persona" class="chart"></div>
+          <br>
+          <hr>
+
+          <h1 class="center">DEFINING THE PROBLEM</h1>
+          <p>Now that I have a basic understanding of q&a apps as well as my target audience, the next step is to define the problem statement using the user persona, user journey, and user stories. 
+          <h3>Process:</h3><p>User Persona, User Journey, & User Stories</p>
+
+          <h2>USER PERSONA</h2>
+          <p>Based on the user research, I created three personas to refer to throughout my design process. A persona is a representation of the users’ daily needs, motivations, challenges, and frustrations. For this case study, I have decided to show one persona. It's time to meet Ryan.</p><br>
+          <p>Ryan is a professor at a university who has passion for learning and exploring his hobbies. He currently started a woodworking project that he needs help on. He knows this type of project isn't something that could be easily learned by reading websites and books but that the best way to learn is by getting hands-on experience and doing it. With his busy schedule and the complexity of the project, Ryan is looking for an expert who could help him out long-term.</p>
+          <div><img src="img/ryan_persona.png" alt="Ryan_Persona" class="ryan">
+          </div>
+
+          <h2>USER JOURNEY</h2>
+          <p>A user journey demonstrates the visual process of what Ryan would think, do, and experience as he accomplishes a specific goal. When we take a closer look at Ryan, we can begin to think about what the product would need in order to bring value to his life.</p>
+          <div><img src="img/ryan_userjourney.png" alt="Ryan_Journey" class="ryan">
+          </div>
+
+          <h2>USER STORIES</h2>
+          <p>User stories are crucial to translate human needs into functional requests. The goal of user stories is to develop a clear understanding of what Ryan wants to achieve. After creating user stories, I gathered some final insights and formed a problem statement.</p>
+          <div><img src="img/userstories.png" alt="userstories" class="chart"></div>
+
+          <h2>PROBLEM STATEMENT</h2>
+          <p>Ryan needs a reliable way to get his questions answered by experts because this would save him time from going to other resources. We want the app to have easy access to experts, various methods of communication, and the ability to keep track of his questions and experts.</p>
+          <br>
+          <hr>
+
+          <h1 class="center">THE FRAMEWORK</h1>
+           <h3>Ideating Solutions:</h3><p>Card Sorting, Sitemap, & Wireframing</p>
+           <br>
+
+          <h2>CARD SORTING</h2>
+          <p>Closed <a href="https://docs.google.com/document/d/1_bALJgq5lH2xiTOOQZc0GU8KeuqpamYOUIHcwXU-fis/edit">card sorting</a> was conducted on five participants using a physical test. They grouped the product content of 43 cards into the 8 defined categories. The average amount of time spent completing this study was 11.29 minutes.
+          </p>
+          <h3 class="blue">Key Findings:</h3>
+          <ul>
+            <li>Users are able to match content topics to the categories better if there is a word in the content topic that matches the word in the category. For example, all 5 users placed “Save Expert” and “Expert ratings” under the category of “Experts.”</li><br>
+            <li>“Book a call” should be accessed through multiple categories, such as “Ask” and “Experts.” This function should not stand independently since it is dependent on having a question in mind.</li><br>
+            <li>Although users have different thoughts to what should be on the "Dashboard" page, most users believe that the content should include “Saved Experts” and “Past Questions.”</li><br>
+            <li>Users are confused over the category “Answer” because they do not know if this function is related to receiving an answer or giving an answer. I need to relabel this category into “Give Answer” or “Give Help.”</li>
+          </ul><br>
+
+          <h2>SITEMAP
+          </h2>
+          <p>The Experts' sitemap was built with a co-existing hierarchy structure since there is some overlapping information on the app. For example, if a user were browsing for an expert on the Experts page, the user can easily access the "Ask" page to ask a question. By maintaining this structure, experts can be easily accessible to users through the search bar, "Dashboard" page, and "Experts" page. 
+          </p>
+          <div><img src="img/experts_sitemap.png" alt="sitemap" class="sitemap"></div>
+
+          <h3 class="blue">Easy Access to Experts
+          </h3>
+          <p>Because it is important for experts to be easily accessible, I included different approaches that users could take to find the expert they need, such as:
+          <ul>
+            <li>Typing the expert's name into the search bar.</li>
+            <li>Finding experts through the various categories on the "Experts" page.</li>
+            <li>Looking through "Top Rated Experts" on the "Experts" page.</li>
+            <li>Viewing the tab "Recently Used Experts" on the "Dashboard" page.</li>
+          </ul>
+          </p>
+
+          <h3 class="blue">Various Methods of Communication
+          </h3>
+          <p>Users will be able to choose their preferred method of communication as this provides them flexibility and comfort. It doesn't matter if their starting point is the "Experts" page or the "Ask" page, because both pathways will lead to the page where they can select their preferred method of communication. 
+          </p>
+
+          <h3 class="blue">Have Everything-You-Need on the "Dashboard" Page
+          </h3>
+          <p>Through card sorting, most users suggested that the "Dashboard" page should include a place where previous experts and questions could be accessed. This would save time for users as it allows them to keep track of their questions and experts.
+          </p><br>
+          <hr>
+
+          <h1 class="center">PROTOTYPING</h1>
+
+          <h2>LOW-FIDELITY WIREFRAMES
+          </h2>
+          <p>Using the key findings from the card sorting session, I sketched each user task using pencil and paper. The yellow highlighted area shows the interaction between the user and the app.</p>
+          <h3>Feature: Making a Video Call & Payment
+          </h3>
+          <div><img src="img/lowfid.png" alt="lowfid" class="lowfid"></div>
+          <h3 class="blue">Explaining the Process:
+          </h3>
+          <ol>
+            <li>User is notified that there is a scheduled video call.
+            </li>
+            <li>User has the option to accept or reject the video call. 
+            </li>
+            <li>User will wait to be connected to Francis after tapping the video call icon. 
+            </li>
+            <li>User can end the session by tapping the bottom video call icon.
+            </li>
+            <li>User can make a payment by choosing the preferred method of payment.
+            </li>
+            <li>User will input billing and credit card information.
+            </li>
+            <li>User is assured that $20 is being transferred to Expert Francis.
+            </li>
+          </ol>
+          <br>
+
+          <h1>USABILITY TESTING
+          </h1>
+          <p>Using Basalmiq, I turned paper sketches into a mid-fidelity prototype, uploaded the wireframes onto Invision, and completed a round of usability testing in-person. Through usability testing, here are some findings and design solutions that I have come up with:</p>
+
+          <h3 class="blue">Finding 1
+          </h3>
+          <p>Users need a way to keep track of their upcoming appointments other than through the notification bell.
+          </p>
+          <ul>
+            <li>A tab called "My Appointments" has been added onto the "Dashboard" for users to view and keep track of their upcoming appointments.
+            </li>
+            <div><img src="img/OE_home.png" alt="highfid" class="highfid"></div>
+          </ul>
+
+          <h3 class="blue">Finding 2
+          </h3>
+          <p>Users naturally gravitate towards the search bar to look up experts or questions. However, the search bar does not need to be on every screen as it either creates clutter or distracts users from the task they are trying to complete.</p>
+          <ul>
+            <li>Therefore, I have removed the search bar depending on which task is being completed. For example, when a user is entering credit card information, a search bar is unnecessary as it can steer away the user from making a payment. For screens that include the option to search, the search bar could be accessed by tapping on the search icon.
+            </li>
+          </ul><br>
+
+          <h3 class="blue">Finding 3
+          </h3>
+          <p>Users often found their answers by using the search engine or by searching experts according to categories.
+          </p>
+          <ul>
+            <li>The alphabetized list of categories in the "Ask" page was removed since users often asked questions by accessing the "Experts" page. Plus, it wasn't efficient to scroll through the alphabetized list of categories to find what you are looking for. 
+            </li>
+            <div><img src="img/OE_categories.png" alt="highfid" class="highfid">
+            </div>
+          </ul>
+
+          <h3 class="blue">Finding 4
+          </h3>
+          <p>Users attempted to sign-up by clicking on the sign-in box, implying that the words "sign-in" and "sign-up" are similar and need to be differentiated.
+          </p>
+          <ul>
+            <li>A "Get Started" button was created to replace the "sign-up" link.
+            </li>
+            <div><img src="img/OE_splash.png" alt="highfid" class="highfid">
+            </div>
+          </ul>
+
+          <h3 class="blue">Finding 5
+          </h3>
+          <p>Users varied in the process of how a question is asked. Most users looked for the expert first before asking their question. Other users asked their question first and then looked for experts.
+          </p>
+          <ul>
+            <li>The process of how a question is asked was changed by having the users find their expert first before asking their question. This was done to make the process of asking questions consistent through the Experts app.
+            </li>
+            <div><img src="img/OE_expertask.png" alt="highfid" class="highfid">
+            </div>
+          </ul>
+
+          <h1>HIGH-FIDELITY WIREFRAMES
+          </h1>
+          <p>Afterwards, I incorporated the design solutions from the usability testing to create a high-fidelity prototype. Here are some main features of using the Experts app:</p>
+          <h3>Feature: Create an Account
+          </h3>
+          <div><img src="img/highfid-3.png" alt="highfid" class="highfid"></div>
+          <h3>Feature: Find an Expert
+          </h3>
+          <div><img src="img/highfid-1.png" alt="highfid" class="highfid"></div>
+          <h3>Feature: Ask a Question
+          </h3>
+          <div><img src="img/highfid-2.png" alt="highfid" class="highfid"></div>
+
+          <br><hr>
+          <h1>REFINING THE DESIGN</h1>
+          <h2>PEER FEEDBACK</h2>
+          <p>Towards the end of the design process, I received peer feedback and made minor modifications to my final prototype using Sketch.</p><br>
+          <div><img src="img/peerfeedback.png" alt="peerfeedback" class="peerfeedback"></div><br>
+          <p>According to the peer feedback I received, I made these changes:
+          </p>
+
+          <h3 class="blue">Making it Easy to "Accept"
+          </h3>
+          <p>Having the "accept" link in a different color than the "reject" link makes it easier for the users to distinguish between the two options.
+          </p>
+
+          <h3 class="blue">"Following Expert" Confirmation
+          </h3>
+          <p>A "Following Expert" pop-up gives confirmation to the users that they are following an expert. Previously, following an expert would lead to the expert's profile page that shows a green checkmark.
+          </p>
+
+          <h3 class="blue">Make it Public
+          </h3>
+          <p>Next to the checkbox, the wording has been changed from "Don't make it public" to "Make it public." The words "Don't make it public" implies that the default setting is public when a user posts a question. However, to protect the user's privacy, the default setting has been changed to private.
+          </p><br>
+
+          <h2>STYLE GUIDE</h2>
+          <p>A style guide was created for experts for future use and to hand-off to developers. </p>
+          <div><img src="img/styleguide.png" alt="styleguide" class="styleguide"></div><br>
+          
+          <h1>CLICKABLE PROTOTYPE</h1>
+          <div id="invision">
+            <a href="https://projects.invisionapp.com/share/VFNXGZKD9Y2" class="button">VIEW</a>
+          </div>
+         
+          <br><hr>
+          <h1>WHAT I'VE LEARNED</h1>
+          <h3>People love Google.
+          </h3>
+          <p>Google is the best because it gives people autonomy, comfort, and convenience. People like to find answers on their own initiative and timing. Questions don't need to be fully thought out before completing a search. The search can be quick or more extensive, depending on the complexity of the question and what they are looking for.
+          </p>
+          <h3>A free drink is not a strong incentive to complete a survey.
+          </h3>
+          <p>Providing an incentive of purchasing a drink for the participant after completion of the tasks isn't necessary since most of my participants did not mind completing the tasks. 
+          </p>
+          <h3>Emphasis on building community can remove a professional feel. 
+          </h3>
+          <p>A social platform is created when everyone pitches in their opinion using casual and unfiltered language. Providing various perspectives can come in forms of bias or facts, and it's the facts that create professionalism while biased thoughts can create a social platform.
+          </p>
+          <br>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
